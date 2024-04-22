@@ -1,7 +1,13 @@
+"use client";
+
 import HeaderCard from "@/components/headerCard";
 import React from "react";
 
 const Project = () => {
+    React.useEffect(() => {
+        document.title = "Fikri | Project";
+    }, []);
+
     return (
         <div className="w-full">
             <HeaderCard

@@ -42,7 +42,7 @@ export default function Home() {
 
                 <FcDonate size={"1.3rem"} />
             </motion.div>
-            <ul className="flex xl:gap-8 ml-4 mt-1  text-white/95 md:flex-row flex-col">
+            <ul className="flex lg:gap-8 ml-4 mt-1  text-white/95 md:flex-row flex-col">
                 <li className="list-disc">
                     <AnimateText>Beginner Front End Dev</AnimateText>
                 </li>

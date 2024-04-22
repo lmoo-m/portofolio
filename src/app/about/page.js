@@ -2,12 +2,16 @@
 
 import HeaderCard from "@/components/headerCard";
 import Line from "@/components/line";
-import React from "react";
+import React, { useEffect } from "react";
 import Educations from "@/components/educations";
 import Certificates from "@/components/certificates";
 import AnimateText from "@/components/animateText";
 
 const About = () => {
+    useEffect(() => {
+        document.title = "Fikri | About";
+    }, []);
+
     return (
         <div className="w-full ">
             <HeaderCard

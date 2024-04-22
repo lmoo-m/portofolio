@@ -18,7 +18,7 @@ const sosmedList = [
         title: "Instagram",
         icon: <FaInstagram size={"1.6rem"} />,
         bg: "bg-[#DB2777]",
-        url: "https://www.instagram.com/hriommth_55/",
+        url: "https://www.instagram.com/pikkkf/",
     },
     {
         title: "Tiktok",
@@ -35,6 +35,10 @@ const sosmedList = [
 ];
 
 const Contact = () => {
+    React.useEffect(() => {
+        document.title = "Fikri | Contact";
+    }, []);
+
     return (
         <div className="w-full">
             <HeaderCard title={"Contact"} desc={"Lets get in touch."} />

@@ -56,14 +56,14 @@ const Certificates = () => {
                     return (
                         <motion.div
                             variants={{
-                                hidden: { y: 100, opacity: 0 },
-                                visible: { y: 0, opacity: 1 },
+                                hidden: { opacity: 0 },
+                                visible: { opacity: 1 },
                             }}
                             key={i}
                             initial="hidden"
                             whileInView={"visible"}
                             transition={{
-                                delay: 0.05 * i,
+                                delay: 0.25 * i,
                             }}
                             viewport={{
                                 once: true,
