@@ -23,8 +23,8 @@ export default function Home() {
         >
             {/* start header */}
             <motion.div className="flex justify-between  ">
-                <AnimateText>
-                    <h1 className="font-bold text-3xl ">
+                <AnimateText className={"pr-1 pt-1"}>
+                    <h1 className="font-bold text-3xl">
                         Hi, Im Fikri{" "}
                         <motion.span
                             className="inline-block cursor-pointer origin-bottom-right"
