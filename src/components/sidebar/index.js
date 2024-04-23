@@ -36,7 +36,10 @@ const Sidebar = () => {
     const path = usePathname();
 
     return (
-        <header className="lg:w-[25%] w-full self-start sticky lg:top-5 -top-1 mb-5 pt-4 px-2 lg:pt-0 lg:px-0 backdrop-blur-md z-50 ">
+        <header
+            className="lg:w-[25%] w-full self-start sticky lg:top-5 -top-1 mb-5 pt-4 px-2 lg:pt-0 lg:px-0 backdrop-blur-md z-50"
+            style={{ position: "-webkit-sticky" }}
+        >
             <div className="text-center mb-4 flex justify-between lg:justify-center overflow-x-hidden">
                 <div>
                     <AnimateText className={"lg:mx-auto"}>

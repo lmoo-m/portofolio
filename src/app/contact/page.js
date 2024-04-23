@@ -30,7 +30,7 @@ const sosmedList = [
         title: "Linkedin",
         icon: <FaLinkedin size={"1.6rem"} />,
         bg: "bg-[#0977B4]",
-        url: "",
+        url: "https://www.linkedin.com/in/fikri-ubaidilah",
     },
 ];
 

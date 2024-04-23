@@ -12,8 +12,18 @@ import frontend from "@/assets/svg/certificates/frontend-1.svg";
 import javascript from "@/assets/svg/certificates/javascript-1.svg";
 import software from "@/assets/svg/certificates/software-1.svg";
 import web from "@/assets/svg/certificates/web-1.svg";
+import lks2024 from "@/assets/svg/certificates/LKS_2024.svg";
+import lks2023 from "@/assets/svg/certificates/LKS_2023.svg";
 
 const listCertificates = [
+    {
+        title: "LKS 2023",
+        image: lks2023,
+    },
+    {
+        title: "LKS 2024",
+        image: lks2024,
+    },
     {
         title: "aws",
         image: aws,
@@ -73,9 +83,10 @@ const Certificates = () => {
                             <Image
                                 src={item.image}
                                 alt={item.title}
+                                priority={false}
                                 width={300}
                                 loading="lazy"
-                                className="hover:scale-125 transition-all delay-500 "
+                                className="hover:scale-125 transition-all delay-500 aspect-[16/12] object-cover"
                             />
                         </motion.div>
                     );

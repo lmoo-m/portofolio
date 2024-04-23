@@ -64,7 +64,7 @@ const HamburgerMenu = ({ navLink }) => {
                             type: "keyframes",
                             stiffness: 50,
                         }}
-                        className="h-screen w-[100%] bg-smoke absolute top-0 z-40 flex flex-col gap-2 justify-center "
+                        className="h-screen w-[100%] bg-smoke fixed top-0 left-0 z-40 flex flex-col gap-2 justify-center "
                     >
                         {navLink.map((nav, i) => {
                             return (

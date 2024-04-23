@@ -57,12 +57,12 @@ export default function Home() {
             {/* description */}
             <AnimateText>
                 <p className="text-sm leading-8 my-4">
-                    An enthusiastic and experienced junior Front-end developer
-                    with a strong focus on front-end development. Proficient in
-                    design and possessing a deep understanding of all aspects of
-                    web technology. A collaborative team player dedicated to
-                    creating efficient, scalable, and visually appealing web
-                    applications.
+                    Web Developer yang antusias dan berpengalaman dengan fokus
+                    kuat pada pengembangan front-end. Mahir dalam desain dan
+                    memiliki pemahaman mendalam tentang semua aspek teknologi
+                    web. Pemain tim kolaboratif yang berdedikasi untuk
+                    menciptakan aplikasi web yang efisien, terukur, dan menarik
+                    secara visual.
                 </p>
             </AnimateText>
             {/* end description */}
@@ -81,8 +81,8 @@ export default function Home() {
                 <div className="bg-smoke/15 p-10 rounded-xl mt-6">
                     <h2 className="text-xl">Lets work together!</h2>
                     <p className="text-md my-4">
-                        Im open for freelance projects, feel free to email me to
-                        see how can we collaborate.
+                        Saya terbuka untuk freelance, silakan hubungi saya untuk
+                        berkolaborasi
                     </p>
                     <Link
                         href={"/contact"}
