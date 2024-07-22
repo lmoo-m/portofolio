@@ -83,6 +83,7 @@ const Project = () => {
                                     {project?.tech?.map((icon, i) => {
                                         return (
                                             <Image
+                                                key={i}
                                                 src={icon.image}
                                                 className="w-10"
                                                 alt={icon.title}
