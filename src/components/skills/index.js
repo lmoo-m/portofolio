@@ -18,7 +18,7 @@ import Marquee from "react-fast-marquee";
 import HeaderCard from "../headerCard";
 import { FaCode } from "react-icons/fa";
 
-const skill = [
+export const skill = [
     {
         title: "React JS",
         image: react,
